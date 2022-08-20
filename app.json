@@ -142,7 +142,7 @@
     ],
     "buildpacks": [
         {
-            "url": "heroku-community/apt"
+            "url": "https://github.com/heroku/heroku-buildpack-apt"
         }
     ]
 }
