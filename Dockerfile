@@ -1,4 +1,4 @@
-FROM THELOLAN/what:latest
+FROM thelolan/what:latest
 
 RUN git clone $GITHUB_REPO_URL /root/what
 WORKDIR /root/what/
