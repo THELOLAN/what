@@ -12,4 +12,4 @@ RUN apk --no-cache --virtual build-dependencies add \
     && apk del build-dependencies
 RUN npm install
 
-CMD ["node", "bot.js"]
+CMD ["node", "index.js"]
