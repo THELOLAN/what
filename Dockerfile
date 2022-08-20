@@ -1,7 +1,7 @@
 FROM node:latest
 
-RUN git clone $GITHUB_REPO_URL /root/what
-WORKDIR /root/what/
+RUN git clone $GITHUB_REPO_URL /root/
+WORKDIR /root/what
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
 RUN apk --no-cache --virtual build-dependencies add \
